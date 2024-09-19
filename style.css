@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    
+    margin: 0px;
+    background-image:linear-gradient( to right, #000000 80%, #F24318 300%);
+    color: white;
+    font-size: 15px;}
+  
+    
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 99.5%;
+    right: 100%;
+    box-shadow: 4px 6px 15px #f2441818;
+    position: sticky;
+    top: 0%;
+    background-color: #000000;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:"Josefin Sans", sans-serif ;
+    font-size: 18px;
+}
+
+.menu li{
+    margin: 10px;
+}
+
+.menu li a {
+display: block;
+padding: 5px;
+}
+
+a:hover{
+
+color:#f24418e5;
+
+
+}
+img,a:hover{
+    box-shadow: 0px 2px 0px #fd370023;
+}
+ 
+ img, p{
+    display: inline-block;
+    margin:15px;
+   
+
+ }
+
+ .imagens__albuns{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 100%;
+    font-size: 20px;
+    }
+
+    .fav{
+        display: block;
+        box-shadow:  4px 6px 12px #f8f8f85d;}
+     
+ 
+ .imagens{
+       display: block;   
+       justify-content: space-evenly;
+       flex-wrap: wrap;   
+                  
+ }
+
+ .imagens> div{
+    margin: 20px;
+ }
+
+.favoritas{
+ font-family: "Josefin Sans", sans-serif;
+ font-size: 40px;
+}
+
+.quemsomos{
+
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 60px;
+}
+.quemsomos__p{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+footer{
+    color: var(--cor-primaria);
+    background-color:#f70b0b21; 
+    padding: 5px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.noticias__imagens{
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.imgnot{
+    display: block;
+    box-shadow:  4px 6px 12px #f8f8f831;
+}
+
+main{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .noticias__imagens{
+flex-wrap: wrap;
+
+    }
+
