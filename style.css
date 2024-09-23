@@ -69,9 +69,13 @@ img,a:hover{
 
  .imagens__albuns{
     display: flex;
+    align-items: center;
     font-family: "Josefin Sans", sans-serif;
     max-width: 100%;
     font-size: 20px;
+    flex-wrap: wrap;
+ 
+    
     }
 
     .fav{
@@ -86,33 +90,38 @@ img,a:hover{
                   
  }
 
- .imagens> div{
-    margin: 20px;
+ .imagens> div{  
+   margin: 20px;
  }
 
 .favoritas{
  font-family: "Josefin Sans", sans-serif;
  font-size: 40px;
+ flex-wrap: wrap;
+ display: flex;
 }
 
 .quemsomos{
-
-    text-align: center;
+    background-image:linear-gradient( to right, #ffffff 2%, #F24318 300%);
     font-family: "Josefin Sans", sans-serif;
-    font-size: 60px;
+    font-size: 35px;
+    color: #000000;
+    padding: 10px;
+    
 }
+
 .quemsomos__p{
-    text-align: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: left;
 }
 footer{
     color: var(--cor-primaria);
     background-color:#f70b0b21; 
-    padding: 5px;
+    padding: 25px;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -138,4 +147,3 @@ main{
 flex-wrap: wrap;
 
     }
-
